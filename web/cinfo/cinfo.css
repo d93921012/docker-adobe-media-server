@@ -1,0 +1,19 @@
+body {
+ margin: 10px auto;
+ width: 870px;
+ /*font: 75%/120% Arial, Helvetica, sans-serif;*/
+}
+
+#ip-list td em {
+ /*background: url('http://www.webdesignerwall.com/demo/jquery/images/hover.png') no-repeat;*/
+ position: absolute;
+ padding: 10px;
+ top: -85px;
+ left: 260px;
+ z-index: 2;
+ display: none;
+ text-align: left;
+ font-style: normal;
+ background-color: white;
+ border: solid 1px;
+}
