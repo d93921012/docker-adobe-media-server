@@ -1,0 +1,53 @@
+版本: AdobeMediaServer5_x64_5_0_15
+執行 ./installAMS 指令，訊息與輸入的整理
+--------------------------------
+msg: To cancel the installation at any time, press Control-C.
+(自動安裝時，直接跳過)
+msg: Please enter your Adobe Media Server 5 serial number.
+input 1: license key[enter]
+msg: Default [/opt/adobe/ams]:
+input 2: /opt/adobe/ams[enter]
+msg: Please enter the administrative username:
+input 3: admin[enter]
+msg: Please enter the administrative password:
+input 4: password[enter]
+msg: Confirm password:
+input 5: password[enter]
+msg: Default user [ams]:
+input 6: ams
+msg: User "ams" does not exist. Do you want to create it?(y/n)
+msg: Default [y]:
+input 7: y
+msg: Default group [ams]:
+input 8: ams
+msg: Do you want to install apache? (y/n)
+msg: Default [y]:
+input 9: y
+msg: You have chosen to install Apache.
+msg: Would you like for Apache or AMS to listen on port 80?
+msg: Enter 'y' for Apache, 'n' for AMS. (y/n)
+msg: Default [y]:
+input 10: y
+msg:If you know the interface(IP address) that AMS will listen on, please enter it here.
+msg: If not, AMS will try to auto-detect it.
+msg: Default []:
+input 11: [enter]
+msg: Please enter the user that Apache will eventually run as.
+msg: Default user [ams]:
+input 12: ams
+msg: Please enter the Adobe Media Server port(s), comma-separated
+msg: Default [1935]:
+input 13: 1935
+msg: Please enter the port to use for the Admin service. You can only specify one admin port.
+msg: Default [1111]:
+input 14: 1111
+msg: Do you want the Adobe Media Server service to run as a daemon? (y/n)
+msg: Default [y]:
+input 15: y
+msg: Do you want to start the Adobe Media Server after the installation is done? (y/n)
+msg: Default [y]:
+input 16: n
+msg: ----------- Install Action Summary -----------
+msg: ....
+msg: Proceed with the installation? (y/n/q):
+input 17: y

@@ -1,17 +1,16 @@
-
-n
+[adobe-media-server-license-code]
 /opt/adobe/ams 
 admin
 [password]
-[pwd confirm]
+[password]
 ams
 y
 ams
 y
 y
-[adobe-media-server-license-code]
+
 ams
-1935,-443
+1935
 1111
 y
 n
